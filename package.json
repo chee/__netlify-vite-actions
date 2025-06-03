@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@netlify/blobs": "^9.1.4",
-    "@netlify/vite-plugin": "^2.0.2",
+    "@netlify/vite-plugin": "^2.1.0",
     "solid-js": "^1.9.5"
   },
   "devDependencies": {
