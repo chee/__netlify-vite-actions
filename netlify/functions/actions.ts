@@ -1,9 +1,8 @@
 import type {Action} from "../../src/types.ts"
 import {getStore} from "@netlify/blobs"
 
-const store = getStore("actions")
-
 export default async function (request: Request) {
+	const store = getStore("actions")
 	if (request.method === "GET") {
 		console.log("getting actions")
 		// Get the current counter value

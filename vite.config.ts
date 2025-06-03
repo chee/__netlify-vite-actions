@@ -4,4 +4,8 @@ import netlify from "@netlify/vite-plugin"
 
 export default defineConfig({
 	plugins: [solid(), netlify()],
+	build: {
+		sourcemap: true,
+		minify: false,
+	},
 })
