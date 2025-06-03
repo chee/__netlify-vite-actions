@@ -1,0 +1,2 @@
+overrides:
+  '@netlify/vite-plugin': link:../../../Library/pnpm/global/5/node_modules/@netlify/vite-plugin
